@@ -1,0 +1,223 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #181818;
+	/* color: #fff; */
+	color: #A1A1A1;
+	padding:0px;
+	margin:0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.2em;
+}
+
+.container {
+	max-width: 1005px;
+	margin: 0 auto;
+	padding: 2em 1em;
+}
+
+header {
+	text-align: center;
+	background: #0A0A0A;
+}
+
+header .container {
+	margin: 0 auto;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+header .logo {
+	display: none;
+}
+
+#vaulty-logo {
+	width: 60px;
+}
+
+nav {
+	padding: 1em 0;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items:center;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 1.5em;
+}
+
+nav ul li a {
+	font-size: 1.1em;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+}
+
+
+nav img.gh-logo {
+	height: 16px;
+	/* vertical-align: upset; */
+	margin-right: 0.2em;
+}
+
+main {
+	display: flex;
+	/* flex-flow: column; */
+}
+
+.hero {
+	text-align: center;
+}
+
+
+.hero {
+	padding-bottom: 1em;
+}
+
+.hero p {
+	font-size: 1em;
+	font-weight: 300;
+	margin-bottom: 2em;
+}
+
+.hero a {
+	background: #F2C94C;
+	color: #333333;
+	text-decoration: none;
+	padding: 0.6em 3em;
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+figure {
+	text-align: center;
+	margin: 0px;
+}
+
+figure img {
+	margin: 0 auto;
+	width: 300px;
+}
+
+.definition {
+	background: #0A0A0A;
+}
+.definition h2 {
+	color: #BEBEBE;
+	text-align: center;
+}
+
+.definition .hint {
+	color: #BCBCBC;
+	font-size: 0.9em;
+	margin-bottom: 0px;
+}
+
+.definition ol {
+	padding-left: 1em;
+}
+
+.definition h3 {
+	color: #BEBEBE;
+	margin-top: 0px;
+}
+
+.definition ol li {
+	color: #BCBCBC;
+	margin-bottom: 1em;
+	font-weight: 300;
+}
+
+#how-it-works {
+	text-align: center;
+}
+#how-it-works h3 {
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+
+#how-it-works article {
+	text-align: center;
+	margin: 0 auto 3em;
+}
+
+#how-it-works article:last-child {
+	margin-bottom: 0;
+}
+
+#how-it-works article p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 530px;
+}
+
+#best {
+	text-align: center;
+}
+
+#best p {
+	margin: 0 auto;
+	max-width: 530px;
+}
+
+
+#use-cases {
+	text-align: center;
+}
+
+#use-cases article {
+	text-align: center;
+	margin: 0 auto 3em;
+}
+
+#use-cases article:last-child {
+	margin-bottom: 0;
+}
+
+#use-cases p {
+	text-align: left;
+	margin: 0 auto;
+	max-width: 530px;
+}
+
+
+#get-started {
+	text-align: center;
+}
+
+#get-started p {
+	margin: 0 auto 2em;
+	max-width: 530px;
+}
+
+#get-started a {
+	background: #F2C94C;
+	color: #333333;
+	text-decoration: none;
+	padding: 0.6em 3em;
+	border-radius: 10px;
+	font-weight: 500;
+}
+#get-started .gh-logo {
+	height: 18px;
+	vertical-align:bottom;
+	margin-right: 0.2em;
+}
