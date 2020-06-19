@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaulty</title>
+    <title>Avoid data breach, pseudonymize, encrypt, tokenize, mask your users data without code changes!</title>
     <link rel="stylesheet" href="/css/landing.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" /> 
 </head>
@@ -12,9 +12,9 @@
 		<div class="container">
 			<nav>
 				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/docs">Documentation</a></li>
-					<li><a href="https://github.com/vaulty-co/vaulty"><img class="gh-logo" src="/img/github.svg"/>GitHub</a></li>
+					<li><a href="/#">Home</a></li>
+					<li><a href="https://docs.vaulty.co">Documentation</a></li>
+					<li><a class="btn" href="https://github.com/vaulty-co/vaulty"><img class="gh-logo" src="/img/github.svg"/>GitHub</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -31,15 +31,16 @@
 		</div>
 	</main>
 
-	<div class="definition">
-		<section class="container">
-			<h2>What's Vaulty</h2>
-			<p class="hint">noun</p>
-			<h3>vaul · ty</h3>
-			<ol>
-				<li>a reverse and forward proxy that modifies (encrypts, decrypts, tokenizes, etc.) HTTP(s) data on the fly and securely stores it in a safe.</li>
-				<li>a forcefield that blocks sensitive data from reaching your backend, while still allowing you to share it with 3rd parties unaltered.</li>
-			</ol>
+	<div class="hl">
+		<section class="definition container">
+				<h2>What's Vaulty</h2>
+				<p class="hint">noun</p>
+				<h3>vaul · ty</h3>
+				<ol>
+					<li>a reverse and forward proxy that modifies (encrypts, decrypts, tokenizes, etc.) HTTP(s) data on the fly and securely stores it in a safe.</li>
+					<li>a forcefield that blocks sensitive data from reaching your backend, while still allowing you to share it with 3rd parties unaltered.</li>
+				</ol>
+			</content>
 		</section>
 	</div>
 
@@ -69,10 +70,15 @@
 			</article>
 		</div>
 	</section>
-	<section id="best" class="container">
-		<h2>The Best Part?</h2>
-		<p>You don't have to change your application logic at all! No code changes! Just set Vaulty as a proxy, and you're done!</p>
-	</section>
+
+
+	<div class="hl">
+		<section id="best" class="container">
+			<h2>The Best Part?</h2>
+			<p>You don't have to change your application logic at all! No code changes! Just set Vaulty as a proxy, and you're done!</p>
+		</section>
+	</div>
+
 	<section id="use-cases">
 		<div class="container">
 			<h2>Common Use-cases</h2>
@@ -96,11 +102,23 @@
 			</article>
 		</div>
 	</section>
+
 	<section id="get-started" class="container">
 		<h2>Get Started</h2>
-		<p>Vaulty is 100% open sourced! You can check out our Github for instructions on deploying your own Vaulty instance!</p>
+		<p>Vaulty is 100% open sourced! You can check out our <a href="https://github.com/vaulty-co/vaulty">Github</a> repo or read the docs for instructions on deploying your own Vaulty instance:</p>
 
-		<a href="#"><img class="gh-logo" src="/img/github-black.svg" />View on GitHub</a>
+		<a class="btn" href="https://docs.vaulty.co/quick">Quick Start!</a>
+	</section>
+
+	<section id="enterprise" class="container">
+		<h2>Enterprise Plan</h2>
+		<p>We can help you setup, deploy and manage your enterprises migration to Vaulty</p>
+		<ul>
+			<li>Priority Support</li>
+			<li>Setup, configuration and deployment of your self-hosted Vaulty instance</li>
+		</ul>
+
+		<a class="btn" href="mailto:contact@vaulty.co">Contact us</a>
 	</section>
 </body>
 </html>

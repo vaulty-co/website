@@ -1,6 +1,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #181818;
+	/* background: #181818; */
+	background: #0A0A0A;
+	/* background: #252525; */
 	/* color: #fff; */
 	color: #A1A1A1;
 	padding:0px;
@@ -19,6 +21,10 @@ h1 {
 
 h2 {
 	font-size: 2.2em;
+}
+
+a {
+	color: #fff;
 }
 
 .container {
@@ -97,7 +103,7 @@ main {
 	margin-bottom: 2em;
 }
 
-.hero a {
+.hero a.btn {
 	background: #F2C94C;
 	color: #333333;
 	text-decoration: none;
@@ -116,9 +122,20 @@ figure img {
 	width: 300px;
 }
 
-.definition {
-	background: #0A0A0A;
+.hl {
+	/* background: #0A0A0A; */
+
+	background: #252525;
 }
+
+.definition {
+}
+
+.definition {
+	max-width: 530px;
+	margin: 0 auto;
+}
+
 .definition h2 {
 	color: #BEBEBE;
 	text-align: center;
@@ -208,7 +225,7 @@ figure img {
 	max-width: 530px;
 }
 
-#get-started a {
+#get-started a.btn {
 	background: #F2C94C;
 	color: #333333;
 	text-decoration: none;
@@ -216,8 +233,45 @@ figure img {
 	border-radius: 10px;
 	font-weight: 500;
 }
+
 #get-started .gh-logo {
 	height: 18px;
 	vertical-align:bottom;
 	margin-right: 0.2em;
+}
+
+
+#enterprise {
+	max-width: 530px;
+	text-align: center;
+}
+
+#enterprise h2 {
+	text-align: center;
+}
+
+#enterprise ul, #enterprise p {
+	text-align: left;
+	margin: 0 auto 2em;
+	padding: 0;
+}
+
+#enterprise ul li {
+	background: url(/img/check.svg) no-repeat 0px 0px transparent;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 2em;
+	padding-bottom: 1em;
+	/* padding: 0px 0px 1px 24px; */
+	/* vertical-align: middle; */
+}
+
+
+#enterprise a.btn {
+	background: #F2C94C;
+	color: #333333;
+	text-decoration: none;
+	padding: 0.6em 3em;
+	border-radius: 10px;
+	font-weight: 500;
 }
