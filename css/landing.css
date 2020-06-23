@@ -44,16 +44,19 @@ header .container {
 	padding-bottom: 0;
 }
 
-header .logo {
-	display: none;
+header {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
 }
 
-#vaulty-logo {
-	width: 60px;
+header .logo img {
+	height: 40px;
 }
 
 nav {
 	padding: 1em 0;
+	margin-left: auto;
 }
 
 nav ul {

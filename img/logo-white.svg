@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="54px" viewBox="0 0 58 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>vault copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vault-copy" transform="translate(2.000000, 2.000000)" stroke="#FFFFFF">
+            <rect id="Rectangle-Copy-3" stroke-width="3" x="0" y="0" width="54" height="50" rx="4"></rect>
+            <rect id="Rectangle-Copy-4" x="4" y="4" width="46" height="42" rx="2"></rect>
+            <g id="Group-5" transform="translate(10.000000, 10.000000)">
+                <g id="Group-6">
+                    <ellipse id="Oval" stroke-width="4" cx="16.9947986" cy="16.3644802" rx="6.02638984" ry="5.95337152"></ellipse>
+                    <g id="Group-4" transform="translate(16.575962, 6.328404) rotate(90.000000) translate(-16.575962, -6.328404) translate(11.075962, 4.328404)">
+                        <g id="visible">
+                            <ellipse id="Oval-Copy" stroke-width="2" cx="1.80791695" cy="1.78601146" rx="1.80791695" ry="1.78601146"></ellipse>
+                            <line x1="4.21847289" y1="1.78601146" x2="9.8431034" y2="1.78601146" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                    <g id="Group-4-Copy-7" transform="translate(6.766045, 13.947608) rotate(16.000000) translate(-6.766045, -13.947608) translate(1.266045, 11.947608)">
+                        <g id="visible">
+                            <ellipse id="Oval-Copy" stroke-width="2" cx="1.80791695" cy="1.78601146" rx="1.80791695" ry="1.78601146"></ellipse>
+                            <line x1="4.21847289" y1="1.78601146" x2="9.8431034" y2="1.78601146" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                    <g id="Group-4-Copy-6" transform="translate(10.581574, 24.759584) rotate(-52.000000) translate(-10.581574, -24.759584) translate(5.081574, 22.759584)">
+                        <g id="visible">
+                            <ellipse id="Oval-Copy" stroke-width="2" cx="1.80791695" cy="1.78601146" rx="1.80791695" ry="1.78601146"></ellipse>
+                            <line x1="4.21847289" y1="1.78601146" x2="9.8431034" y2="1.78601146" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                    <g id="Group-4-Copy-4" transform="translate(26.588541, 13.196770) rotate(162.000000) translate(-26.588541, -13.196770) translate(21.088541, 11.196770)">
+                        <g id="visible">
+                            <ellipse id="Oval-Copy" stroke-width="2" cx="1.80791695" cy="1.78601146" rx="1.80791695" ry="1.78601146"></ellipse>
+                            <line x1="4.21847289" y1="1.78601146" x2="9.8431034" y2="1.78601146" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                    <g id="Group-4-Copy-5" transform="translate(23.489037, 24.381976) rotate(231.000000) translate(-23.489037, -24.381976) translate(17.989037, 22.381976)">
+                        <g id="visible">
+                            <ellipse id="Oval-Copy" stroke-width="2" cx="1.80791695" cy="1.78601146" rx="1.80791695" ry="1.78601146"></ellipse>
+                            <line x1="4.21847289" y1="1.78601146" x2="9.8431034" y2="1.78601146" id="Line" stroke-width="3" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
