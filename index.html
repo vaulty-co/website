@@ -14,7 +14,7 @@
 				<ul>
 					<li><a href="/#">Home</a></li>
 					<li><a href="https://docs.vaulty.co">Documentation</a></li>
-					<li><a class="btn" href="https://github.com/vaulty-co/vaulty"><img class="gh-logo" src="/img/github.svg"/>GitHub</a></li>
+					<li><a href="https://github.com/vaulty-co/vaulty"><img class="gh-logo" src="/img/github.svg"/>GitHub</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -27,7 +27,7 @@
 				<img src="/img/database.svg" alt="Do not store plain sensitive data inside your database" />
 			</figure>
 			<p>Don't wait to get hacked!</p>
-			<a href="#">Protect data now!</a>
+			<a class="btn" href="https://docs.vaulty.co/quick">Protect data now!</a>
 		</div>
 	</main>
 
@@ -72,53 +72,75 @@
 	</section>
 
 
-	<div class="hl">
 		<section id="best" class="container">
 			<h2>The Best Part?</h2>
 			<p>You don't have to change your application logic at all! No code changes! Just set Vaulty as a proxy, and you're done!</p>
 		</section>
-	</div>
 
+	<div class="hl">
 	<section id="use-cases">
 		<div class="container">
 			<h2>Common Use-cases</h2>
-			<article>
-				<h3>Keep sensitive data away from developers</h3>
-				<p>With Vaulty, you can prevent developers from accessing sensitive customer data, even with full access to your database.</p>
-			</article>
-			<article>
-				<h3>Isolate handling of sensitive data to just Vaulty</h3>
-				<p>Use Vaulty to isolate the pieces of your infrastructure that handle sensitive data. A breach of your app, or even database would not mean a customer data breach.</p>
-			</article>
-			<article>
-				<h3>Get PCI/HIIPA certified quicker!</h3>
-				<p>By excluding your entire app stack, getting ceritied is much easier!
-					<br/><br/>Not only that, but future audits would also benefit from the reduced compliance scope.</p>
-			</article>
-			<article>
-				<h3>Prevent vendor lock-in</h3>
-				<p>Owning sensitive data means you’re never held hostage to a single provider. Switching providers is simply a matter of configuring new endpoints.
-					<br/><br/>This includes card data, sensitive credentials or any other user data.</p>
-			</article>
+			<div class="articles">
+				<article>
+					<h3>Keep sensitive data away from developers</h3>
+					<p>With Vaulty, you can prevent developers from accessing sensitive customer data, even with full access to your database.</p>
+				</article>
+				<article>
+					<h3>Isolate handling of sensitive data to just Vaulty</h3>
+					<p>Use Vaulty to isolate the pieces of your infrastructure that handle sensitive data. A breach of your app, or even database would not mean a customer data breach.</p>
+				</article>
+				<article>
+					<h3>Get PCI/HIIPA certified quicker!</h3>
+					<p>By excluding your entire app stack, getting ceritied is much easier!
+						<br/><br/>Not only that, but future audits would also benefit from the reduced compliance scope.</p>
+				</article>
+				<article>
+					<h3>Prevent vendor lock-in</h3>
+					<p>Owning sensitive data means you’re never held hostage to a single provider. Switching providers is simply a matter of configuring new endpoints.
+						<br/><br/>This includes card data, sensitive credentials or any other user data.</p>
+				</article>
+			</div>
 		</div>
 	</section>
+	</div>
 
-	<section id="get-started" class="container">
-		<h2>Get Started</h2>
-		<p>Vaulty is 100% open sourced! You can check out our <a href="https://github.com/vaulty-co/vaulty">Github</a> repo or read the docs for instructions on deploying your own Vaulty instance:</p>
+	<div id="offer" class="container">
+		<div class="sections">
+			<section id="get-started">
+				<h2>Get Started</h2>
+				<p>Vaulty is 100% open sourced! You can check out our <a href="https://github.com/vaulty-co/vaulty">Github</a> repo or read the docs for instructions on deploying your own Vaulty instance:</p>
 
-		<a class="btn" href="https://docs.vaulty.co/quick">Quick Start!</a>
-	</section>
+				<a class="btn" href="https://docs.vaulty.co/quick">Quick Start!</a>
+			</section>
 
-	<section id="enterprise" class="container">
-		<h2>Enterprise Plan</h2>
-		<p>We can help you setup, deploy and manage your enterprises migration to Vaulty</p>
-		<ul>
-			<li>Priority Support</li>
-			<li>Setup, configuration and deployment of your self-hosted Vaulty instance</li>
-		</ul>
+			<section id="enterprise">
+				<h2>Enterprise Plan</h2>
+				<p>We can help you setup, deploy and manage your enterprises migration to Vaulty</p>
+				<ul>
+					<li>Priority Support</li>
+					<li>Setup, configuration and deployment of your self-hosted Vaulty instance</li>
+				</ul>
 
-		<a class="btn" href="mailto:contact@vaulty.co">Contact us</a>
-	</section>
+				<a class="btn" href="mailto:contact@vaulty.co">Contact us</a>
+			</section>
+		</div>
+	</div>
+	<div class="hl">
+		<footer class="container">
+			<section>
+				<ul>
+					<li>Copyright &copy; Vaulty Team, 2020</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li><a href="https://github.com/vaulty-co/vaulty"><img class="gh-logo" src="/img/github.svg"/> GitHub</a></li>
+					<li><a href="https://github.com/vaulty-co/vaulty/issues">Feedback</a></li>
+					<li><a href="mailto:contact@vaulty.co">contact@vaulty.co</a></li>
+				</ul>
+			</section>
+		</footer>
+	</div>
 </body>
 </html>

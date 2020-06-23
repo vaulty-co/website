@@ -79,13 +79,11 @@ nav ul li a {
 
 nav img.gh-logo {
 	height: 16px;
-	/* vertical-align: upset; */
 	margin-right: 0.2em;
 }
 
 main {
 	display: flex;
-	/* flex-flow: column; */
 }
 
 .hero {
@@ -123,8 +121,6 @@ figure img {
 }
 
 .hl {
-	/* background: #0A0A0A; */
-
 	background: #252525;
 }
 
@@ -191,17 +187,15 @@ figure img {
 }
 
 #best p {
-	margin: 0 auto;
+	margin: 0 auto 2em;
 	max-width: 530px;
 }
 
-
-#use-cases {
+#use-cases h2 {
 	text-align: center;
 }
 
 #use-cases article {
-	text-align: center;
 	margin: 0 auto 3em;
 }
 
@@ -215,63 +209,93 @@ figure img {
 	max-width: 530px;
 }
 
-
-#get-started {
+#offer {
 	text-align: center;
 }
 
-#get-started p {
-	margin: 0 auto 2em;
+#offer section {
 	max-width: 530px;
-}
-
-#get-started a.btn {
-	background: #F2C94C;
-	color: #333333;
-	text-decoration: none;
-	padding: 0.6em 3em;
-	border-radius: 10px;
-	font-weight: 500;
-}
-
-#get-started .gh-logo {
-	height: 18px;
-	vertical-align:bottom;
-	margin-right: 0.2em;
-}
-
-
-#enterprise {
-	max-width: 530px;
+	/* width: 420px; */
 	text-align: center;
+	margin: 0 auto 3em;
 }
 
-#enterprise h2 {
-	text-align: center;
-}
-
-#enterprise ul, #enterprise p {
+#offer section p, #offer section ul {
 	text-align: left;
+	/* margin: 0 auto; */
+	margin-bottom: 2em;
 	margin: 0 auto 2em;
 	padding: 0;
 }
 
-#enterprise ul li {
+#offer section ul li {
 	background: url(/img/check.svg) no-repeat 0px 0px transparent;
 	list-style-type: none;
 	margin: 0;
 	padding-left: 2em;
 	padding-bottom: 1em;
-	/* padding: 0px 0px 1px 24px; */
-	/* vertical-align: middle; */
 }
 
-
-#enterprise a.btn {
+a.btn {
 	background: #F2C94C;
 	color: #333333;
 	text-decoration: none;
 	padding: 0.6em 3em;
 	border-radius: 10px;
 	font-weight: 500;
+}
+
+footer {
+	flex-flow: column;
+	display: flex;
+}
+
+footer section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer section ul li {
+	padding-bottom: 0.5em;
+}
+
+
+footer a {
+	text-decoration: none;
+}
+
+footer .gh-logo {
+	height: 14px;
+}
+
+@media only screen and (min-width: 820px) {
+	#use-cases .articles, #offer .sections {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#use-cases article, #offer section {
+		text-align: left;
+		width: 400px;
+
+	}
+	#use-cases article h3 {
+		text-align: left;
+	}
+
+
+	footer {
+		flex-flow: row;
+		justify-content: space-around;
+	}
+
+	footer section {
+		margin: 0 auto;
+		width: 400px;
+	}
+
+	footer :last-child {
+		margin-left: auto;
+	}
 }
