@@ -120,7 +120,8 @@ figure {
 
 figure img {
 	margin: 0 auto;
-	width: 300px;
+	width: 85%;
+	max-width: 450px;
 }
 
 .hl {
